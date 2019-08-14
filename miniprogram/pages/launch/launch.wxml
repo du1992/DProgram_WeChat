@@ -1,0 +1,5 @@
+<view class='container'>
+  <image mode='widthFix' class='bcg' src='/images/launch.png'>
+  </image>
+  
+</view>

@@ -1,0 +1,47 @@
+<view class="index">
+
+<!-- 头部 -->
+<view class="index-hd">
+    <image class="index-logo" src="/images/icon.png" ></image>
+    <view class="index-desc">基础不太好?概念不清?那还不来复习一下，收集各大公司的面试题库供小伙伴儿们复习,学习,巩固👇</view>
+  </view>
+
+
+
+<!-- 列表 -->
+<view class="index-bd">
+    <view class="kind-list">
+
+
+      <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+      
+   
+        <view class="kind-list-item"  >
+          <view id="{{item.id}}" 
+          class="kind-list-item-hd"   data-id="{{item.id}}"  bindtap="navigateTo">
+
+         
+
+            <image class="kind-list-img"  src="/images/home/{{item.id}}.png"> 
+            </image>
+
+
+             <view class="kind-list-txt">
+             <view class="kind-list-title">{{item.title}}</view>
+             <view class="kind-list-introduceBrief">{{item.introduceBrief}}</view>
+             </view>
+            
+
+            <image class="kind-list-img"  src="{{nextImg}}">
+            </image>
+     </view>
+       </view>
+       
+      </block>
+      </view>
+  </view>
+ 
+
+
+
+ </view>

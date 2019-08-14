@@ -1,0 +1,43 @@
+
+
+
+<view class="kind-background">
+
+<view class="index-hd">
+
+  
+   <view  class="index-content" data-item="{{hdItem}}"
+          bindtap="navigateTo">
+      <image class="index-logo"  src="{{hdItem.cover}}" 
+      ></image>
+   
+       <view class="index-introduce">
+        {{hdItem.introduction}}
+  </view>
+
+</view>
+    <view class="water">
+        <view class="water-c">
+            <view class="water-1"> </view>
+            <view class="water-2"> </view>
+        </view>
+    </view>
+</view>
+
+
+
+
+<view class="kind-list-scroll">
+           
+            <view class="kind-list-row" wx:for="{{list}}"  wx:key="{{item.id}}" data-item="{{item}}"
+          bindtap="navigateTo">
+                <image mode="" class="help-select-iamge" src="{{item.cover}}" ></image>
+                <view class="help-goods-title">
+                  {{item.title}}
+                </view>
+            </view>
+
+
+    </view>
+
+</view>

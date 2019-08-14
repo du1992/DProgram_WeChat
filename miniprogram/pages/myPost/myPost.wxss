@@ -1,0 +1,142 @@
+/* 列表 */
+.index-bd {
+  padding: 30rpx 30rpx 40rpx;
+}
+/* 列表视图 */
+.kind-list-item {
+  margin: 20rpx 0;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+.kind-list-item-hd {
+  padding: 30rpx;
+  /* display: flex;
+  align-items: center; */
+
+  transition: opacity .3s;
+}
+
+.kind-list-item:first-child {
+  margin-top: 0;
+}
+
+/* 个人信息*/
+.kind-list-user{
+ width: 100%;
+ margin-bottom: 10px;
+  /* display: -webkit-flex;
+ display: flex; */
+
+ align-items: center; 
+ }
+.kind-list-userLogo {
+  width:  60rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+  
+}
+
+/* 视图-昵称*/
+.kind-list-nickName{
+   margin-left: 10px;
+   color: #888888;
+   font-size: 26rpx;
+  
+}
+/* 视图-内容*/
+.kind-content-view{
+     margin-top: 60;
+}
+.kind-list-content{
+   color: #000000;
+   font-size: 30rpx;
+}
+
+/* 视图-分享 */
+.kind-share-button{
+  /* float: right; */
+  size: 60rpx 30rpx;
+  /* right: 0px; */
+  background: linear-gradient(to right,#8BC6EC ,#9599E2);
+   color: #FFFFFF;
+   font-size: 20rpx;
+   /* margin-left: auto; */
+   
+  
+}
+
+
+/* 水平显示 */
+ 
+.flex-wrp-row {
+  display: flex;
+  flex-direction: row;
+}
+ 
+.item {
+  padding: 0rpx;
+  position: relative;
+}
+ 
+.item-left {
+   flex: 1; /* 重要 */
+   align-items:center;
+}
+ 
+.item-right {
+  position: relative;
+  align-items:center;
+}
+
+
+.kind-list-item-hd-show {
+  opacity: .2;
+}
+.kind-list-item-bd {
+  height: 0;
+  overflow: hidden;
+}
+.kind-list-item-bd-show {
+  height: auto;
+}
+
+
+
+.conference{
+  
+ 
+ 
+  position: fixed;
+   /* justify-content: center; */
+  display: flex;
+
+
+    line-height: 30rpx;
+  text-align: center;
+  flex-direction: row;
+ 
+ 
+  font-size: 20rpx;
+  height: 100rpx;
+  width: 100rpx;
+  right: 20rpx;
+  bottom: 50rpx;
+  border-radius: 50%;
+
+}
+.conference-image{
+   width: 100%;
+  height: 100%;
+}
+.loginButton{
+  opacity: 0;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+

@@ -1,0 +1,88 @@
+
+<view class="index">
+
+
+
+<view class='information'wx:if='{{informationList}}'>
+    <swiper  display-multiple-items='1' circular previous-margin='50px' next-margin='50px' bindchange='change' current='{{current}}'>
+      <block wx:for="{{informationList}}" wx:key='{{index}}'>
+        <swiper-item>
+          <view class="box" data-index='{{index}}' animation="{{index == current?animationData:animationData2}}" bindtap="informationNavigateTo"  data-item="{{item}}">
+            <image src='{{item.captions}}'  mode="aspectFill"></image>
+            <view class='swiper-title'>
+              <text>{{item.title}}</text>
+            </view>
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+</view>
+
+
+
+
+
+
+<!-- 列表 -->
+<view class="index-bd">
+
+  
+
+
+    
+    <view class="kind-list">
+
+
+      <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+      
+   
+        <view class="kind-list-item"  >
+          <view id="{{item.id}}" class="kind-list-item-hd"  
+          data-item="{{item}}"
+          bindtap="informationNavigateTo">
+
+
+    <view  >
+         
+           
+     <image class="list-captions" src="{{item.captions}}" mode="aspectFill"> 
+     </image>
+                
+            
+<view class="list-title" >
+     <text>{{item.title}}</text>
+ </view>
+             
+     <view class="list-content">
+     {{item.about}}
+     </view>
+          
+        
+       <button class="kind-share-button"  open-type="share"  >
+              分享
+       </button> 
+            
+
+        
+        </view>
+          
+             
+             
+            
+
+            
+     </view>
+       </view>
+       
+      </block>
+
+    
+     
+     
+
+
+
+
+      </view>
+  </view>
+</view>

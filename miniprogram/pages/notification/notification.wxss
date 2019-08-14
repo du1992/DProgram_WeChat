@@ -1,0 +1,44 @@
+/* 列表视图 */
+.kind-list-item {
+  margin: 2rpx 0;
+  background-color: #FFFFFF;
+ 
+  overflow: hidden;
+
+  border-style: solid;
+  box-shadow:0px 0px 0.1px 0.1px #DDDDDD;
+  border-width: 0rpx;
+}
+.kind-list-item-hd {
+  padding: 30rpx;
+  display: flex;
+  align-items: center;
+
+  transition: opacity .3s;
+}
+/* 视图*/
+.kind-list-txt{
+  margin-left:15px;
+  margin-bottom: 20 rpx;
+  flex: 1;
+}
+/* 视图-标题*/
+.kind-list-title{
+   color: #000000;
+   font-size: 28rpx;
+}
+/* 视图-介绍*/
+.kind-list-introduceBrief{
+   color: #888888;
+   font-size: 26rpx;
+}
+
+
+
+
+/* 视图-下一个图片 */
+.kind-list-userLogo{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+}

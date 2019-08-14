@@ -1,0 +1,34 @@
+<!-- 列表 -->
+
+    <view class="kind-list">
+      
+     <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+      
+   
+        <view class="kind-list-item"  >
+          <view id="{{item.id}}" 
+          class="kind-list-item-hd"   data-id="{{item.id}}"  bindtap="navigateTo">
+
+         
+
+            <image class="kind-list-userLogo"  src="{{item.icon}}"> 
+            </image>
+
+
+             <view class="kind-list-txt">
+             <view class="kind-list-title">{{"📪"+item.nickname}}</view>
+             <view class="kind-list-introduceBrief">{{item.content}}</view>
+             </view>
+            
+
+          
+     </view>
+       </view>
+       
+      </block>
+
+
+
+
+     
+  </view>

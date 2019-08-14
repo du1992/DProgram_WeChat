@@ -1,0 +1,158 @@
+/* 头部*/
+.index-hd {
+  /* padding: 0rpx 0rpx 0rpx 0rpx; */
+  height: 500rpx;
+
+  
+  
+}
+/* 头部-logo */
+.index-logo {
+  width: 100%;
+  height: 286rpx;
+  /* position: fixed; */
+  background: linear-gradient(to right,#8EC5FC ,#E0C3FC);
+}
+
+.index-title{
+     position: relative;
+     margin-top: -220rpx;
+     margin-right:5%;
+     margin-left:5%;
+     width: 90%;
+     color: #FFFFFF;
+     font-size: 38rpx;
+     text-shadow:2px 2px 4px #000000;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+
+/* 头部-介绍 */
+.index-desc{
+  position: relative;
+  margin-top: 50rpx;
+  margin-right:30rpx;
+  margin-left:30rpx;
+
+  /* padding: 0rpx 0rpx 0rpx 0rpx; */
+  height: 250rpx;
+  /* width: 80%; */
+  /* text-align: center; */
+  color: #000000;
+  font-size: 28rpx;
+  background-color: #FFFFFF;
+  overflow: hidden;
+ 
+   
+  border-radius: 5px;
+  border-style: solid;
+  box-shadow:0px 0px 0.4px 0.4px #DDDDDD;
+  border-width: 0rpx;
+  /* position: fixed; */
+}
+.index-desc-txt{
+     margin-right:5%;
+     margin-left:5%;
+     width: 90%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+
+}
+.index-segmentation{
+   margin-top: 20rpx;
+    width: 100%;
+   height: 5rpx;
+   align-items: center;
+   justify-content: center;
+}
+
+
+/* 列表视图 */
+.kind-list-item {
+  margin: 40rpx 20rpx 0rpx 20rpx;
+  background-color: #FFFFFF;
+  
+  
+  border-radius: 4rpx;
+  overflow: hidden;
+
+  border-style: solid;
+  box-shadow:0px 0px 0.1px 0.1px #DDDDDD;
+  border-width: 0rpx;
+
+
+}
+.kind-list-item-hd {
+  /* 上-右-下-左 */
+  padding: 30rpx 30rpx 10rpx 30rpx;
+  /* display: flex; */
+ 
+
+  transition: opacity .3s;
+}
+
+.kind-list-item:first-child {
+  margin-top: 0;
+}
+
+.kind-list-question{
+   color: #000000;
+   font-size: 28rpx;
+   align-items: center;
+
+}
+
+.kind-list-answer{
+   color: #888888;
+   font-size: 28rpx;
+   margin-top:10px; 
+   
+  
+
+
+}
+
+.kind-list-bottom{
+    
+    /* position: relative; */
+    /* right: 0px;
+    left: 0px; */
+    bottom: 0px;
+   
+    height: 60rpx;
+    /* width: 100%;  */
+    /* background-color: yellow; */
+  
+}
+/* 视图-分享 */
+.kind-share-button{
+  float: right;
+  right: 0px;
+ size: 60rpx 30rpx;
+ 
+  
+  
+  background: linear-gradient(to right,#8BC6EC ,#9599E2);
+   color: #FFFFFF;
+   font-size: 20rpx;
+  
+  /* background-size: 100%; */
+  
+ 
+
+  
+  
+}
+
+.kind-list-collection{
+   width: 60rpx;
+   height: 60rpx;
+   /* float: right; */
+   /* padding-top: 10px; */
+   margin-right:10px;
+}

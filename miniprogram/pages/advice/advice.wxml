@@ -1,0 +1,61 @@
+<view class="index">
+
+<!-- 列表 -->
+
+    <view class="kind-list">
+      
+     <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+      
+   
+        <view class="kind-list-item"  >
+          <view id="{{item.id}}" 
+          class="kind-list-item-hd"   data-id="{{item.id}}"  bindtap="navigateTo">
+
+         
+
+            <image class="kind-list-userLogo"  src="{{item.userLogo}}"> 
+            </image>
+
+
+             <view class="kind-list-txt">
+             <view class="kind-list-title">{{"📮"+item.nickName}}</view>
+             <view class="kind-list-introduceBrief">{{item.content}}</view>
+             </view>
+            
+
+          
+     </view>
+       </view>
+       
+      </block>
+</view>
+
+
+
+<!-- 输入框 -->
+<view class="comments-input">
+
+<view style="">
+
+<image class='avatar' src='{{avatarUrl}}' wx:if='{{avatarUrl}}'></image>
+      <image class='avatar' src='/images/user/empty_avatar_user.png' wx:else></image>
+
+ <view class='input-radius' >
+  <input  maxlength="200" placeholder="说点什么吧!!(200字以内)" bindinput ="contentBindinput"/>
+  </view>
+
+ <view class='sendButton' bindtap="onSend">发送</view>
+
+
+</view>
+
+<button class='loginButton' type="primary" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo" wx:if='{{!avatarUrl}}'></button>
+
+</view>
+
+
+
+
+
+
+  </view>

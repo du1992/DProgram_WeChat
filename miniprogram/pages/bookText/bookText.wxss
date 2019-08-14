@@ -1,0 +1,54 @@
+ page {
+  background-color: #FFEED2;
+} 
+.index{
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   align-items: center;
+   background: #FFEED2; 
+   
+}
+.index-cover{
+   width: 160rpx;
+   height: 200rpx;
+   border-radius: 5rpx;
+   margin-top:15px;
+
+}
+
+.kind-title{
+    color: #888888; 
+    font-size: 38rpx; 
+    margin-left:15px;
+    margin-right:15px;
+    letter-spacing:5rpx;
+}
+.kind-Introduction{
+    color: #888888; 
+    font-size: 28rpx; 
+    margin-top:5px;
+    margin-left:15px;
+    margin-right:15px;
+    margin-bottom:15px;
+    letter-spacing:5rpx;
+}
+.kind-title{
+   margin-bottom:15px;
+    margin-top:15px;
+    font-size: 38rpx; 
+     letter-spacing:5rpx;
+     background: #FFEED2;
+}
+
+.kind-txt{
+  
+
+    font-size: 36rpx;
+    padding-right:15px;
+    padding-left:15px;
+    line-height: 60rpx;
+    word-spacing:30rpx;
+    letter-spacing:6rpx;
+    background: #FFEED2; 
+}

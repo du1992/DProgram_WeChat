@@ -1,0 +1,25 @@
+.index{
+  
+  width: 100%;
+  height: 100%;
+  padding-top: 80rpx;
+  
+
+  
+}
+.index-logo {
+  width: 30vw;
+  height: 30vw;
+  margin-left: 35vw;
+  border-radius: 8rpx;
+  
+  
+}
+
+.index-desc{
+  margin-top: 50rpx;
+  text-align: center;
+  line-height:34rpx;
+  padding-left: 30rpx;
+  padding-right:30rpx;
+}

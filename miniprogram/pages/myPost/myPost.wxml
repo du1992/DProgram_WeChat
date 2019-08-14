@@ -1,0 +1,81 @@
+<view class="index">
+
+<!-- 列表 -->
+<view class="index-bd">
+
+  
+
+
+    
+    <view class="kind-list">
+
+
+      <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+      
+   
+        <view class="kind-list-item"  >
+          <view id="{{item.id}}" class="kind-list-item-hd"  
+          data-item="{{item}}"
+          bindtap="navigateTo">
+
+
+         <view  style="flex-direction:column">
+         
+             <!-- 个人信息 -->
+             <view class="kind-list-user flex-wrp-row item" >
+                 
+                 <view class="item-left flex-wrp-row" >
+                       <image class="kind-list-userLogo" src="{{item.userLogo}}"></image>
+              <view class="kind-list-nickName" >
+              <text>{{item.nickName}}</text>
+              </view>
+                 </view>
+
+            
+
+               <button class="kind-share-button item-right flex-wrp-row"  open-type="share"  >
+              分享
+              </button>
+
+          
+             </view>
+           
+            
+
+            <!-- 内容 -->
+            <view class="kind-content-view"  >
+             <view class="kind-list-content">{{item.content}}</view>
+            
+           
+        
+           
+
+             </view>
+            
+        </view>
+          
+             
+             
+            
+
+            
+     </view>
+       </view>
+       
+      </block>
+
+    
+     
+     <view class='conference'>
+    <image class='conference-image' src='/images/conference.png' mode="aspectFit" bindtap="publishNavigateTo"></image>
+    
+    <button class='loginButton' type="primary" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo" wx:if='{{!avatarUrl}}'></button>
+
+  </view>
+
+
+
+
+      </view>
+  </view>
+</view>

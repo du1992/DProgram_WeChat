@@ -1,0 +1,207 @@
+/* 头部*/
+.index-hd{
+  background:white;
+  padding-bottom: 40rpx;
+}
+.index-background {
+  width: 100%;
+  height: 300rpx;
+  background: linear-gradient(to right,#8EC5FC ,#E0C3FC);
+ }
+.kind-interval-view{
+    padding: 30rpx 30rpx 40rpx;
+}
+.kind-list{
+  margin-bottom: 80rpx;
+}
+/* 个人信息*/
+.kind-list-user{
+ margin-left: 40rpx;
+ margin-right: 40rpx;
+  
+  /* display: -webkit-flex;
+ display: flex; */
+
+ align-items: center; 
+ }
+.kind-list-userLogo {
+  width:  60rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+  
+}
+
+/* 视图-昵称*/
+.kind-list-nickName{
+   margin-left: 10px;
+   color: #888888;
+   font-size: 26rpx;
+  
+}
+/* 视图-内容*/
+.kind-content-view{
+     margin-top: 40rpx;
+     margin-left: 40rpx;
+     margin-right: 40rpx;
+     
+}
+.kind-list-content{
+   color: #000000;
+   font-size: 30rpx;
+}
+
+/* 视图-分享 */
+.kind-share-button{
+  /* float: right; */
+  size: 60rpx 30rpx;
+  /* right: 0px; */
+  background: linear-gradient(to right,#8BC6EC ,#9599E2);
+   color: #FFFFFF;
+   font-size: 20rpx;
+   /* margin-left: auto; */
+   
+  
+}
+
+
+/* 水平显示 */
+ 
+.flex-wrp-row {
+  display: flex;
+  flex-direction: row;
+}
+ 
+.item {
+  padding: 0rpx;
+  position: relative;
+}
+ 
+.item-left {
+   flex: 1; /* 重要 */
+   align-items:center;
+}
+ 
+.item-right {
+  position: relative;
+  align-items:center;
+}
+
+
+.comments-title{
+   background:white;
+   margin-top: 40rpx;
+   margin-left: 1rpx;
+   margin-right: 1rpx;
+   height: 60rpx;
+   padding-left: 40rpx;
+   padding-top: 5rpx;
+}
+
+
+.comments-input{
+  position: fixed;
+  display: flex;
+  line-height: 80rpx;
+  background: white;
+  height: 80rpx;
+  width:100%;
+  bottom:0;
+ 
+}
+.input-radius{
+  margin-top: -80rpx;
+  margin-left: 100rpx;
+  border-radius: 15px;
+  width: 70vw;
+  
+}
+.loginButton{
+  opacity: 0;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.avatar{
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+  border-radius: 30rpx;
+}
+.sendButton{
+  font-size: 23rpx;
+  width: 100rpx;
+  height: 60rpx;
+  background: linear-gradient(to right,#8BC6EC ,#9599E2);
+   color: white;
+
+   /* float: right;
+  right: 100rpx; */
+
+  margin-top: -55rpx;
+  margin-left: 85vw;
+  text-align: center;
+  border-radius: 5rpx;
+  line-height: 60rpx;
+}
+.input-view{
+  width: 250rpx;
+  height: 50rpx;
+}
+
+.button {
+  vertical-align: middle;
+}
+
+
+
+/* 列表视图 */
+.kind-list-item {
+  margin: 2rpx 0;
+  background-color: #FFFFFF;
+ 
+  overflow: hidden;
+
+  border-style: solid;
+  box-shadow:0px 0px 0.1px 0.1px #DDDDDD;
+  border-width: 0rpx;
+}
+.kind-list-item-hd {
+  padding: 30rpx;
+  display: flex;
+  align-items: center;
+
+  transition: opacity .3s;
+}
+/* 视图*/
+.kind-list-txt{
+  margin-left:15px;
+  margin-bottom: 20 rpx;
+  flex: 1;
+}
+/* 视图-标题*/
+.kind-list-title{
+   color: #000000;
+   font-size: 28rpx;
+}
+/* 视图-介绍*/
+.kind-list-introduceBrief{
+   color: #888888;
+   font-size: 26rpx;
+}
+
+
+
+
+/* 视图-下一个图片 */
+.kind-list-img {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 6rpx;
+}

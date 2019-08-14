@@ -1,0 +1,59 @@
+<view class="index">
+
+<!-- 头部 -->
+
+
+   <view  style="flex-direction:column"  wx:if="{{isHeadViewState}}">
+      <image class="index-cover"  src="{{json.cover}}" 
+      >
+      </image>
+
+     <view class="kind-title" >
+              <text>{{json.title}}</text>
+      </view>
+    
+    <view class="kind-Introduction" >
+              <text>{{json.introduction}}</text>
+     </view>
+
+      
+
+</view>
+
+
+
+
+
+
+<!-- 列表 -->
+<view class="index-bd">
+    <view class="kind-list">
+
+
+      <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+      
+   
+   <view class="kind-title" >
+          <text>{{item.title+'\n'}}</text>
+     </view>
+
+        <view class="kind-txt"  >
+        
+              <text>{{item.txt+'\n'}}</text>
+
+
+       </view>
+
+
+       
+      </block>
+      </view>
+  </view>
+
+
+
+
+
+
+
+ </view>

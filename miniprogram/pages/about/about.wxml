@@ -1,0 +1,26 @@
+<view class="index">
+
+<view>
+    <image class="index-logo" src="/images/icon.png" ></image>
+ </view>
+
+    <view class="index-desc">
+    
+    <text> 
+    版本号：V1.0.1\n
+    编程宝典适用于想要学习编程和初级开发者的人群\n
+主要功能给大家汇报一下\n
+1.IT资讯 掌握最新的行业动态\n
+2.各种编程语言基础教程，通俗易懂。\n
+3.面试题库，找工作必备(适用于客户端开发，前端开发，服务端开发)\n
+
+如果有什么问题和想法可以联系我\n
+【联系方式】\n
+微信：duchengwenQJ\n
+邮箱：kevindcw@163.com\n
+
+  </text>
+    </view>
+
+
+</view>

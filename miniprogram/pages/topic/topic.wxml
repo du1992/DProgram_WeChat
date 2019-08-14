@@ -1,0 +1,90 @@
+<view class="index">
+
+<!-- 头部 -->
+<view class="index-hd">
+
+   <view>
+      <image class="index-logo"  src="{{backgroundImg}}" mode="aspectFill"
+      ></image>
+      <!-- <view class="index-logo-view"></view> -->
+  </view>
+
+<!-- 称号介绍 -->
+<view class="index-title">
+   <view class="title-desc-txt">{{title}}</view>
+</view>
+
+   <!-- 介绍卡片 -->
+   <view class="index-desc">
+   <view class="index-desc-txt">{{introduce}}</view>
+  </view>
+
+   <view>
+      <image class="index-segmentation"  src="{{segmentationImg}}" mode="aspectFill"
+      ></image>
+   </view>
+
+
+  </view>
+
+
+
+
+
+
+<!-- 列表 -->
+<view class="index-bd">
+    <view class="kind-list">
+
+
+      <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+      
+   
+        <view class="kind-list-item"  >
+          <view id="{{item.id}}" class="kind-list-item-hd"   data-id="{{item.id}}"  >
+
+         
+
+             <view>
+                  <view class="kind-list-txt">
+                  <view class="kind-list-question">{{item.question}}</view>
+                  <view class="kind-list-answer">{{item.answer}}</view>
+                  </view>
+  
+              <view class="kind-list-bottom">
+                  
+            
+
+              <button class="kind-share-button"  open-type="share"  >
+              分享
+              </button>
+             
+
+                  
+               </view>
+            </view>
+           
+          
+         
+               
+       
+          
+             
+             
+            
+
+            
+     </view>
+       </view>
+       
+      </block>
+      </view>
+  </view>
+
+
+
+
+
+
+
+ </view>

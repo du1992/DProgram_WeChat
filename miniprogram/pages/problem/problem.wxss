@@ -1,0 +1,83 @@
+/* 头部介绍 */
+.index-hd {
+  padding: 50rpx;
+  text-align: center;
+}
+/* 头部-logo */
+.index-logo {
+  width: 95rpx;
+  height: 95rpx;
+  border-radius: 6rpx;
+  
+}
+/* 头部-介绍 */
+.index-desc {
+  margin-top: 20rpx;
+  color: #000000;
+  font-size: 28rpx;
+}
+
+
+/* 列表 */
+.index-bd {
+  padding: 0 30rpx 40rpx;
+}
+/* 列表视图 */
+.kind-list-item {
+  margin: 20rpx 0;
+  background-color: #FFFFFF;
+  border-radius: 4rpx;
+  overflow: hidden;
+
+  border-style: solid;
+  box-shadow:0px 0px 0.1px 0.1px #DDDDDD;
+  border-width: 0rpx;
+}
+.kind-list-item-hd {
+  padding: 30rpx;
+  display: flex;
+  align-items: center;
+
+  transition: opacity .3s;
+}
+
+.kind-list-item:first-child {
+  margin-top: 0;
+}
+
+/* 视图*/
+.kind-list-txt{
+  margin-left:15px;
+  margin-bottom: 20 rpx;
+  flex: 1;
+}
+/* 视图-标题*/
+.kind-list-title{
+   color: #000000;
+   font-size: 28rpx;
+}
+/* 视图-介绍*/
+.kind-list-introduceBrief{
+   color: #888888;
+   font-size: 26rpx;
+}
+
+
+
+
+/* 视图-下一个图片 */
+.kind-list-img {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.kind-list-item-hd-show {
+  opacity: .2;
+}
+.kind-list-item-bd {
+  height: 0;
+  overflow: hidden;
+}
+.kind-list-item-bd-show {
+  height: auto;
+}
